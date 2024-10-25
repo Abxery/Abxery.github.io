@@ -1,0 +1,5 @@
+.tag-list span {
+    font-size: 20px;
+    margin-right: 10px; /* 右侧增加10px的间隔 */
+    display: inline-block; /* 确保标签是行内块元素 */
+}
