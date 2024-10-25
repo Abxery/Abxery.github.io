@@ -29,13 +29,6 @@ footer_bg: true
 
 
 
-#本地搜索
-# Local search
-local_search:
-  enable: true
-  labels:
-    input_placeholder: Search for Posts
-    hits_empty: "We didn't find any results for the search: ${query}" # 如果没有查到内容相关内容显示
 
 
 #背景特效
@@ -115,11 +108,11 @@ mask: # 为 header 或 footer 添加黑色半透遮罩
 favicon: /image/6.jpg
 
 #代码块
-highlight_theme: mac  #  darker / pale night / light / ocean / mac / mac light / false 代码主题
+highlight_theme: pale night  #  darker / pale night / light / ocean / mac / mac light / false 代码主题
 highlight_copy: true # 复制按钮
-highlight_lang: false # 是否显示代码语言
+highlight_lang: true # 是否显示代码语言
 highlight_shrink: false # true: 代码块默认不展开 / false: 代码块默认展开 | none: 展开并隐藏折叠按钮
-highlight_height_limit: false # unit: px
+highlight_height_limit: 200px # unit: px
 code_word_wrap: true #代码自动换行，关闭滚动条
 
 #图片懒加载
@@ -139,9 +132,124 @@ activate_power_mode:
   shake: true #  open shake (抖动特效)
   mobile: true
 
-# wordcount (字數統計)
-word count:
+# 需要安裝 hexo-wordcount 插件
+wordcount:
+  # 是否啟用字數統計
   enable: true
-  post_word count: true
+  # 在文章元信息中顯示字數統計
+  post_wordcount: true
+  # 在文章元信息中顯示閲讀時間
   min2read: true
-  total_word count: true
+  # 在側邊欄網站信息中顯示總字數
+  total_wordcount: true
+
+
+# A simple 404 page
+error_404:
+  enable: true
+  subtitle: '頁面沒有找到'
+  background:
+
+# 文章元數據設置
+post_meta:
+  # 主頁頁面
+  page:
+    # 日期類型: created / updated / both
+    date_type: created
+    # 日期格式: date / relative
+    date_format: date
+    # 是否顯示分類
+    categories: true
+    # 是否顯示標籤
+    tags: false
+    # 是否顯示文字標籤
+    label: true
+  # 文章頁面
+  post:
+    # 元數據位置: left / center
+    position: left
+    # 日期類型: created / updated / both
+    date_type: both
+    # 日期格式: date / relative
+    date_format: date
+    # 是否顯示分類
+    categories: true
+    # 是否顯示標籤
+    tags: true
+    # 是否顯示文字標籤
+    label: true
+
+# 相關文章
+related_post:
+  # 是否顯示相關文章
+  enable: true
+  # 顯示的文章數量
+  limit: 6
+  # 選擇: created / updated
+  date_type: created
+
+# 選擇: 1 / 2 / false
+# 1: “下一篇文章”將鏈接到舊文章
+# 2: “下一篇文章”將鏈接到新文章
+# false: 禁用分頁
+post_pagination: 1
+
+# 顯示文章過期通知
+noticeOutdate:
+  # 是否啟用過期通知
+  enable: false
+  # 樣式: simple / flat
+  style: flat
+  # 多少天后顯示通知
+  limit_day: 365
+  # 位置: top / bottom
+  position: top
+  message_prev: 已經過了
+  message_next: 天自上次更新，文章內容可能已過時。
+
+# 暗黑模式設置
+darkmode:
+  # 是否啟用暗黑模式
+  enable: true
+  # 切換暗黑/明亮模式的按鈕
+  button: true
+  # 是否自動切換暗黑/明亮模式
+  # autoChangeMode: 1  跟隨系統設置，如果系統不支持暗黑模式，則在晚上 6 點到早上 6 點之間切換暗黑模式
+  # autoChangeMode: 2  在晚上 6 點到早上 6 點之間切換暗黑模式
+  # autoChangeMode: false  不自動切換
+  autoChangeMode: false
+  # 設置明亮模式時間，值在 0 到 24 之間。如果未設置，默認值為 6 和 18
+  start:
+  end:
+
+# 關於 per_page
+# 如果設置為 true，將在每個頁面加載 mathjax/katex 腳本
+# 如果設置為 false，將根據你的設置加載 mathjax/katex 腳本（在頁面的 front-matter 中添加 'mathjax: true' 或者 'katex: true'）
+math:
+  # 選擇：mathjax, katex
+  # 如果不需要數學公式，保持為空
+  use: mathjax
+  per_page: false
+  hide_scrollbar: false
+
+  mathjax:
+    # 啟用上下文菜單
+    enableMenu: true
+    # 選擇：all / ams / none，這控制是否對公式編號以及如何編號
+    tags: none
+
+  katex:
+    # 啟用複製 KaTeX 公式
+    copy_tex: false
+
+  # 本地搜索
+  local_search:
+    # 頁面加載時預加載搜索數據
+    preload: false
+    # 每篇文章顯示的頂部 n 個搜索結果，設置為 -1 顯示所有結果
+    top_n_per_article: 1
+    # 將 HTML 字符串反轉義為可讀內容
+    unescape: false
+    CDN:
+
+
