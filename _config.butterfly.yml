@@ -105,7 +105,7 @@ mask: # 为 header 或 footer 添加黑色半透遮罩
 favicon: /image/6.jpg
 
 #代码块
-highlight_theme: pale night  #  darker / pale night / light / ocean / mac / mac light / false 代码主题
+highlight_theme: mac  #  darker / pale night / light / ocean / mac / mac light / false 代码主题
 highlight_copy: true # 复制按钮
 highlight_lang: true # 是否显示代码语言
 highlight_shrink: false # true: 代码块默认不展开 / false: 代码块默认展开 | none: 展开并隐藏折叠按钮
@@ -275,6 +275,8 @@ math:
     enableMenu: true
     # Choose: all / ams / none, This controls whether equations are numbered and how
     tags: true
+    enable: true
+    per_page: true
 
   katex:
     # Enable the copy KaTeX formula

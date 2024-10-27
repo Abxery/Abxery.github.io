@@ -1,6 +1,8 @@
 ---
 title: BuildCTF Crypto方向wp
 date: 2024-10-26 00:00:00
+top_img: /image/5.jpg
+mathjax: true
 cover: https://s2.loli.net/2024/10/27/71pP5aUlKnDscgo.png
 tags:
   - Crypto
