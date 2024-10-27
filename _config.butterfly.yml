@@ -105,7 +105,7 @@ mask: # 为 header 或 footer 添加黑色半透遮罩
 favicon: /image/6.jpg
 
 #代码块
-highlight_theme: mac  #  darker / pale night / light / ocean / mac / mac light / false 代码主题
+highlight_theme: ocean #  darker / pale night / light / ocean / mac / mac light / false 代码主题
 highlight_copy: true # 复制按钮
 highlight_lang: true # 是否显示代码语言
 highlight_shrink: false # true: 代码块默认不展开 / false: 代码块默认展开 | none: 展开并隐藏折叠按钮
@@ -144,7 +144,7 @@ wordcount:
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: '頁面沒有找到'
+  subtitle: '页面没有找到'
   background:
 
 # 文章元數據設置
@@ -201,8 +201,8 @@ noticeOutdate:
   limit_day: 365
   # 位置: top / bottom
   position: top
-  message_prev: 已經過了
-  message_next: 天自上次更新，文章內容可能已過時。
+  message_prev: 已经过了
+  message_next: 天自上次更新，文章內容可能已过时。
 
 # 暗黑模式設置
 darkmode:
@@ -241,6 +241,19 @@ toc:
   scroll_percent: true
 
 aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true # display on mobile
+  position: right # left or right
+  card_author:
+    enable: true
+    description:
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/Abxery/Abxery.github.io
   card_tags:
     enable: true
     # If set 0 will show all
@@ -252,6 +265,7 @@ aside:
     order: 1
     sort_order:
 
+
 runtimeshow:
   enable: true
   publish_date: 2024/10/20
@@ -260,7 +274,9 @@ cover:
   index_enable: true #  是否展示文章封面
   aside_enable: true
   archives_enable: true
-  position: both # 封面展示的位置 left/right/both
+  position: both
+  default_cover: /image/5.jpg
+  # 封面展示的位置 left/right/both
   # 当没有设置cover时，默认展示的文章封面
 
 math:
