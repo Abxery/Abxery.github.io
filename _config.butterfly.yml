@@ -7,10 +7,7 @@ menu:
   Archives: /archives/ || fas fa-archive
   Tags: /tags/ || fas fa-tags
   Categories: /categories/ || fas fa-folder-open
-  List||fa fa-heartbeat:
-    music: /music/ || fas fa-music
-    photo: /Gallery/ || fas fa-images
-    movie: /movies/ || fas fa-video
+  Link: /link/ || fas fa-link
 
 #头像
 avatar:
@@ -113,7 +110,7 @@ highlight_copy: true # 复制按钮
 highlight_lang: true # 是否显示代码语言
 highlight_shrink: false # true: 代码块默认不展开 / false: 代码块默认展开 | none: 展开并隐藏折叠按钮
 highlight_height_limit: 200px # unit: px
-code_word_wrap: true #代码自动换行，关闭滚动条
+code_word_wrap: false #代码自动换行，关闭滚动条
 
 #图片懒加载
 lazy load:
@@ -222,34 +219,65 @@ darkmode:
   start:
   end:
 
-# 關於 per_page
-# 如果設置為 true，將在每個頁面加載 mathjax/katex 腳本
-# 如果設置為 false，將根據你的設置加載 mathjax/katex 腳本（在頁面的 front-matter 中添加 'mathjax: true' 或者 'katex: true'）
+
+# 本地搜索
+local_search:
+  # 頁面加載時預加載搜索數據
+  preload: false
+  # 每篇文章顯示的頂部 n 個搜索結果，設置為 -1 顯示所有結果
+  top_n_per_article: 1
+  # 將 HTML 字符串反轉義為可讀內容
+  unescape: false
+  CDN:
+
+# 目录
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  # Only for post
+  style_simple: false
+  scroll_percent: true
+
+aside:
+  card_tags:
+    enable: true
+    # If set 0 will show all
+    limit: 40
+    color: true
+    # Order of tags, random/name/length
+    orderby: name
+    # Sort of order. 1, asc for ascending; -1, desc for descending
+    order: 1
+    sort_order:
+
+runtimeshow:
+  enable: true
+  publish_date: 2024/10/20
+
+cover:
+  index_enable: true #  是否展示文章封面
+  aside_enable: true
+  archives_enable: true
+  position: both # 封面展示的位置 left/right/both
+  # 当没有设置cover时，默认展示的文章封面
+
 math:
-  # 選擇：mathjax, katex
-  # 如果不需要數學公式，保持為空
+  # Choose: mathjax, katex
+  # Leave it empty if you don't need math
   use: mathjax
-  per_page: false
+  per_page: true
   hide_scrollbar: false
 
   mathjax:
-    # 啟用上下文菜單
+    # Enable the contextual menu
     enableMenu: true
-    # 選擇：all / ams / none，這控制是否對公式編號以及如何編號
-    tags: none
+    # Choose: all / ams / none, This controls whether equations are numbered and how
+    tags: true
 
   katex:
-    # 啟用複製 KaTeX 公式
+    # Enable the copy KaTeX formula
     copy_tex: false
-
-  # 本地搜索
-  local_search:
-    # 頁面加載時預加載搜索數據
-    preload: false
-    # 每篇文章顯示的頂部 n 個搜索結果，設置為 -1 顯示所有結果
-    top_n_per_article: 1
-    # 將 HTML 字符串反轉義為可讀內容
-    unescape: false
-    CDN:
 
 

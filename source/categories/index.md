@@ -1,21 +1,6 @@
 ---
-title: 分類
-date: 2024-10-26 00:00:00
-type: 'categories'
+title: Categories
+date: 2024-10-20 20:58:31
+type: categories
+comments: false 
 ---
-# Categories
-
-## Crypto
-- RSA
-- 奇怪定理
-
-## Web
-- CTFshow
-- 常见姿势
-- 前置知识
-
-## Misc
-- 武器库
-- 前置知识
-
-## WP
