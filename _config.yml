@@ -45,12 +45,14 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
-  line_number: false
+  enable: true
+  line_number: true
   auto_detect: false
   tab_replace: ''
-  wrap: true
-  hljs: false
+  wrap: false
+  hljs: true
 prismjs:
+  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -111,4 +113,5 @@ kramed:
   breaks: true
   smartLists: true
   smartypants: true
+
 

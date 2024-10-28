@@ -26,7 +26,9 @@ footer_bg: true
 
 
 
-
+highlight_theme: false
+highlight_shrink: false
+highlight_fullpage: true
 
 #背景特效
 inject:
@@ -35,6 +37,7 @@ inject:
     - <link rel="stylesheet" href="/styles/main.css">
     - <link rel="stylesheet" href="/tags/tags.css">
     - <link rel="stylesheet" href="/styles/transparency.css">
+    - <link rel="stylesheet" href="/styles/custom.css">
   bottom:
     - <script src="/styles/fish.js"></script>
 
@@ -104,13 +107,21 @@ mask: # 为 header 或 footer 添加黑色半透遮罩
 
 favicon: /image/6.jpg
 
-#代码块
-highlight_theme: ocean #  darker / pale night / light / ocean / mac / mac light / false 代码主题
-highlight_copy: true # 复制按钮
-highlight_lang: true # 是否显示代码语言
-highlight_shrink: false # true: 代码块默认不展开 / false: 代码块默认展开 | none: 展开并隐藏折叠按钮
-highlight_height_limit: 200px # unit: px
-code_word_wrap: false #代码自动换行，关闭滚动条
+code_blocks:
+  # Code block theme: darker / pale night / light / ocean / false
+  theme: ocean
+  macStyle: true
+  # Code block height limit (unit: px)
+  height_limit: 200
+  word_wrap: false
+
+  # Toolbar
+  copy: true
+  language: true
+  # true: shrink the code blocks | false: expand the code blocks | none: expand code blocks and hide the button
+  shrink: false
+  fullpage: false
+
 
 #图片懒加载
 lazy load:
