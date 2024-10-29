@@ -16,7 +16,6 @@ avatar:
 
 #顶部图
 index_img: /image/5.jpg
-default_top_img: /image/5.jpg
 footer_bg: true
 
 
@@ -309,4 +308,17 @@ math:
     # Enable the copy KaTeX formula
     copy_tex: false
 
-
+#页面顶图配置
+#category_per_img和tag_per_img，可配置多张，每次会随机取一张
+#format:
+# - category name: xxxxx
+disable_top_img: false
+default_top_img: /image/5.jpg
+tag_img: https://s2.loli.net/2024/10/29/AzfC2VW7I9KcX6a.jpg
+tag_per_img:
+  - https://s2.loli.net/2024/10/29/y9XSQrcpHAPwTsY.jpg
+  - https://s2.loli.net/2024/10/29/VTqt6jpIBGdZohW.jpg
+category_img: https://s2.loli.net/2024/10/29/PhXBLls2bwycZVe.jpg
+category_per_img:
+  - https://s2.loli.net/2024/10/29/bve5UXFLYqI4lBT.jpg
+  - https://s2.loli.net/2024/10/29/Z5mIMrgq8vH1E6N.jpg
