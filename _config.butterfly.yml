@@ -292,7 +292,7 @@ cover:
 math:
   # Choose: mathjax, katex
   # Leave it empty if you don't need math
-  use: mathjax
+  use: katex
   per_page: true
   hide_scrollbar: false
 
@@ -300,13 +300,11 @@ math:
     # Enable the contextual menu
     enableMenu: true
     # Choose: all / ams / none, This controls whether equations are numbered and how
-    tags: true
-    enable: true
-    per_page: true
+    tags: all
 
   katex:
     # Enable the copy KaTeX formula
-    copy_tex: false
+    copy_tex: true
 
 #页面顶图配置
 #category_per_img和tag_per_img，可配置多张，每次会随机取一张
