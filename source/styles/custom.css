@@ -19,7 +19,7 @@
     --hlexpand-bg: #f2f5f9;      /* 代码框底部展开背景色 */
 }
 .hljs {
-    color: #bcc1c6;
+    color: #898c93;
     background: #0d1117;
 }
 
@@ -73,7 +73,7 @@
 .hljs-code,
 .hljs-formula {
     /* prettylights-syntax-comment */
-    color: #959ea8;
+    color: #a0a7ae;
 }
 
 .hljs-name,
@@ -86,7 +86,7 @@
 
 .hljs-subst {
     /* prettylights-syntax-storage-modifier-import */
-    color: #c9d1d9;
+    color: #adb5bc;
 }
 
 .hljs-section {
@@ -102,13 +102,13 @@
 
 .hljs-emphasis {
     /* prettylights-syntax-markup-italic */
-    color: #c9d1d9;
+    color: #b2b9c0;
     font-style: italic;
 }
 
 .hljs-strong {
     /* prettylights-syntax-markup-bold */
-    color: #c9d1d9;
+    color: #b4bbc2;
     font-weight: bold;
 }
 
