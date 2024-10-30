@@ -254,7 +254,7 @@ echo mt_rand()+mt_rand();  #token的值
 ![](https://s2.loli.net/2024/10/29/7TVfCGMWsOoUDpJ.png)
 **注意格式为20060807这种，设置为yyyyMMdd**
 
-爆破出好多200的结果，一个个看又要虾，
+爆破出好多200的结果，一个个看![](https://s2.loli.net/2024/10/30/dyCsIhKbMSaHorV.png)又要虾，
 > **tips**
 将长度从大到小排
 ![](https://s2.loli.net/2024/10/30/Oi82PTVg9K46qHF.png)
