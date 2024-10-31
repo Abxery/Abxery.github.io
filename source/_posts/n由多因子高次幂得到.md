@@ -1,9 +1,9 @@
 ---
-title: RSA-n1,n2包含相同因子
+title: RSA-n由多因子高次幂得到
 date: 2024-10-31 16:21:25
 top_img: https://s2.loli.net/2024/10/29/2g84Lct6EzHhPAY.jpg
 mathjax: true
-cover: https://s2.loli.net/2024/10/29/cZdmpPoUkBvL6ne.jpg
+cover: https://s2.loli.net/2024/10/31/9smuVb1L5wxCKUP.jpg
 tags:
   - Crypto
 categories:

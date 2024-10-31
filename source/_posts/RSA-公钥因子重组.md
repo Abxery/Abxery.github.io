@@ -1,7 +1,7 @@
 ---
 title: RSA-公钥因子重组
 date: 2024-10-31 20:44:06 
-top_img: https://s2.loli.net/2024/10/31/ZrViyU4IeWdGEP7.jpg
+top_img: https://s2.loli.net/2024/11/01/FI4CdlJwHQXveMW.jpg
 mathjax: true
 cover: https://s2.loli.net/2024/10/31/4PnjrTve1sYJ7WM.jpg
 tags:
