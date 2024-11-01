@@ -11,7 +11,7 @@ categories:
   - RSA
 
 ---
-# n由多因子高次幂得到
+# RSA-n由多因子高次幂得到
 源码：
 ```python
 from Crypto.Util.number import *
