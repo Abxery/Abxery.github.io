@@ -190,11 +190,11 @@ def rabin(c):
     return m1, m2, m3, m4
 
 # 中国剩余定理合成函数
-def crt(m1, p, m2, q):
-    n = p * q
-    inv_q = inverse(q, p)
-    inv_p = inverse(p, q)
-    x = (m1 * q * inv_q + m2 * p * inv_p) % n
+def CRT(m_p, m_q):
+    n = p*q
+    t1 = inverse(q, p)
+    t2 = inverse(p, q)
+    x = (m_p*q*t1 + m_q*p*t2) % n
     return x
 
 # 解密过程
@@ -206,10 +206,10 @@ for _ in range(int(lge)):  # 遍历以 log2(e) 为次数的循环
         m1, m2, m3, m4 = rabin(c2)
         # 使用 CRT 将模 p 和模 q 的解合成模 n 的解
         candidates = [
-            crt(m1, p, m3, q),
-            crt(m1, p, m4, q),
-            crt(m2, p, m3, q),
-            crt(m2, p, m4, q)
+            CRT(m1, m3),
+            CRT(m1, m4),
+            CRT(m2, m3),
+            CRT(m2, m4)
         ]
         for candidate in candidates:
             t.add(candidate)
