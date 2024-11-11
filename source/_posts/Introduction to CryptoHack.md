@@ -1,5 +1,5 @@
 ---
-title: Introduction to CryptoHack
+title: XOR
 date: 2024-11-3 00:32:36
 top_img: https://s2.loli.net/2024/10/31/nVLPkAGRsEHjvW1.jpg
 cover: https://s2.loli.net/2024/10/31/sQoB5rIj98AJMxh.jpg
@@ -10,8 +10,6 @@ categories:
   - CRYPTOHACK
 
 ---
-# 第一弹 Introduction to CryptoHack
-前几个就略略略了...
 ## XOR Starter
 XOR 是按位运算符，如果位相同则返回 0，否则返回 1。在教科书中，XOR 运算符用 ⊕ 表示，但在大多数挑战和编程语言中，您会看到使用插入符号^代替。
 ![](https://s2.loli.net/2024/11/03/D2o1saRVJSkZ3jn.png)
