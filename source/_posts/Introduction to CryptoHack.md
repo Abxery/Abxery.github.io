@@ -7,7 +7,7 @@ tags:
   - Crypto
 categories:
   - Crypto
-  - CRYPTOHACK
+  - 定理
 
 ---
 ## XOR Starter
