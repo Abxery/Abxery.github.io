@@ -113,3 +113,9 @@ markdown_it_plus:
       options:
         strict: false
 
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+

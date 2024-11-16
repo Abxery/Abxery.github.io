@@ -230,14 +230,11 @@ darkmode:
   end:
 
 
-# 本地搜索
+
+
 local_search:
-  # 頁面加載時預加載搜索數據
+  enable: true
   preload: false
-  # 每篇文章顯示的頂部 n 個搜索結果，設置為 -1 顯示所有結果
-  top_n_per_article: 1
-  # 將 HTML 字符串反轉義為可讀內容
-  unescape: false
   CDN:
 
 # 目录
