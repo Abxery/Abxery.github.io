@@ -2,8 +2,7 @@
 title: RSA-Rabin_attack
 date: 2024-11-1 09:36:16
 top_img: https://s2.loli.net/2024/10/31/ZGFeBz8jOTUHrN1.jpg
-mathjax: true
-cover: https://s2.loli.net/2024/10/29/Mqtih9YAUSmvXFV.jpg
+cover: https://s2.loli.net/2024/11/17/dmcjrKy6gAHNVbk.jpg
 tags:
   - Crypto
 categories:
