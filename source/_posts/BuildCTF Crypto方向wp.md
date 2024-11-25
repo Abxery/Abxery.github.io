@@ -7,7 +7,7 @@ cover: https://s2.loli.net/2024/10/27/71pP5aUlKnDscgo.png
 tags:
   - Crypto
 categories:
-  - wp
+  - WP
 
 ---
 

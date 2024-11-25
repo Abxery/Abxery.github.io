@@ -6,7 +6,7 @@ cover: https://s2.loli.net/2024/10/31/tSzDAeG3oXKNQTm.jpg
 tags:
   - Crypto
 categories:
-  - wp
+  - WP
 
 ---
 # Signin
