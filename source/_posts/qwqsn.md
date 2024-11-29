@@ -1,8 +1,8 @@
 ---
 title: 第八届强网杯青少年专项赛crypto_wp
 date: 2024-11-25 10:28:32
-top_img: https://s2.loli.net/2024/11/17/lMZhkax8LsF6Goi.png
-cover: https://s2.loli.net/2024/11/17/V6cziTJd194pF3y.png
+top_img: https://s2.loli.net/2024/10/31/iQNeXYnAzxrdHCw.jpg
+cover: https://s2.loli.net/2024/11/30/91eYhOGsVZMuSp6.jpg
 tags:
   - Crypto
 categories:
