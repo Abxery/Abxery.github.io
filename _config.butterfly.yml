@@ -11,7 +11,7 @@ menu:
 
 #头像
 avatar:
-  img: /image/123.jpg
+  img: https://s2.loli.net/2024/11/29/PGJKCEyDn97QMvA.png
   # effect: true # 头像会一直转，转的贼快，太鬼畜了
 
 #顶部图
@@ -104,7 +104,7 @@ mask: # 为 header 或 footer 添加黑色半透遮罩
   header: false
   footer: true
 
-favicon: /image/8.jpg
+favicon: https://s2.loli.net/2024/11/29/BXKLedTmGAJzriD.jpg
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
