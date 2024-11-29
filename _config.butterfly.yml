@@ -11,7 +11,7 @@ menu:
 
 #头像
 avatar:
-  img: /image/3.png
+  img: /image/123.jpg
   # effect: true # 头像会一直转，转的贼快，太鬼畜了
 
 #顶部图
@@ -104,7 +104,7 @@ mask: # 为 header 或 footer 添加黑色半透遮罩
   header: false
   footer: true
 
-favicon: /image/6.jpg
+favicon: /image/8.jpg
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
