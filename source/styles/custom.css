@@ -9,17 +9,17 @@
   Current colors taken from GitHub's CSS
 */
 :root {
-    --hl-color: #c9d1d9;         /* 代码框字体颜色 */
-    --hl-bg: #fbfbfc;            /* 代码框背景色 */
-    --hltools-bg: #f0f2f5;       /* 代码框顶部工具栏背景色 */
+    --hl-color: #989da4;         /* 代码框字体颜色 */
+    --hl-bg: #fcfdff;            /* 代码框背景色 */
+    --hltools-bg: #f6f6f9;       /* 代码框顶部工具栏背景色 */
     --hltools-color: #b3c3cf;    /* 代码框顶部工具栏字体颜色 */
-    --hlnumber-bg: #f1f4f8;      /* 代码框行数背景色 */
-    --hlnumber-color: #9fa9b2;   /* 代码框行数字体颜色 */
+    --hlnumber-bg: #f6f6f9;      /* 代码框行数背景色 */
+    --hlnumber-color: #cbd4e1;   /* 代码框行数字体颜色 */
     --hlscrollbar-bg: #a1b3c6;   /* 代码框滚动条颜色 */
-    --hlexpand-bg: #f2f5f9;      /* 代码框底部展开背景色 */
+    --hlexpand-bg: #f5f8ff;      /* 代码框底部展开背景色 */
 }
 .hljs {
-    color: #898c93;
+    color: #53585e;
     background: #0d1117;
 }
 
@@ -73,7 +73,7 @@
 .hljs-code,
 .hljs-formula {
     /* prettylights-syntax-comment */
-    color: #a0a7ae;
+    color: #c7cfdd;
 }
 
 .hljs-name,

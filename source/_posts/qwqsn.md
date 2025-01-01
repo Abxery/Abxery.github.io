@@ -10,10 +10,6 @@ categories:
 
 
 ---
-
-最后一次参加青少赛了，还是有点遗憾 ， 以后继续 :fist:
-
-
 # Classics
 已经给出了加密方法和密文，倒着来就行
 ![](https://s2.loli.net/2024/11/24/ngOIDMzdoyKp8aQ.png)
