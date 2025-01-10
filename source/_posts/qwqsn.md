@@ -15,7 +15,7 @@ categories:
 ![](https://s2.loli.net/2024/11/24/ngOIDMzdoyKp8aQ.png)
 
 # AliceAES
-简单的aes，给出了key，iv和明文，直接加密就行
+简单的aes，给出了key，iv和明文，直接加密
 
 ```python
 
